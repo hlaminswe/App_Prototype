@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            android:descendantFocusability="beforeDescendants"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView android:layout_gravity="right"
+                android:id="@+id/skip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:layout_marginRight="@dimen/margin_standard"
+                android:text="@string/skip"
+                style="@style/BoardingSkip" />
+            <TextView android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="@string/btn_signup"
+                style="@style/BoardingTitle" />
+            <TextView android:layout_gravity="center"
+                android:layout_width="220.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/log_in_desc"
+                style="@style/BoardingDescription" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_gravity="center"
+                android:id="@+id/input_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                app:hintTextAppearance="@style/BoardingEditTextFloatingLabel"
+                style="@style/BoardingSkip">
+                <EditText android:id="@+id/edit_email"
+                    android:nextFocusDown="@id/input_pwd"
+                    android:hint="@string/email"
+                    android:maxLines="1" android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:textCursorDrawable="@null"
+                    style="@style/BoardingEditText" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_gravity="center"
+                android:id="@+id/input_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/BoardingEditTextFloatingLabel"
+                style="@style/BoardingSkip">
+                <EditText android:id="@+id/edit_pwd"
+                    android:hint="@string/password"
+                    android:maxLines="1" android:inputType="textVisiblePassword"
+                    android:imeOptions="actionDone"
+                    android:textCursorDrawable="@null"
+                    style="@style/BoardingEditText" />
+            </android.support.design.widget.TextInputLayout>
+            <Button android:textSize="12.0sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:id="@+id/sign_in_btn"
+                android:background="@color/dark_gray"
+                android:layout_width="300.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:text="@string/btn_signup"
+                android:onClick="onEmailSignUpClick" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

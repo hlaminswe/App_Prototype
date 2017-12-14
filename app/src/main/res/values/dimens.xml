@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">50dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="pin_textsize">50dp</dimen>
+
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_button_size">80dp</dimen>
+    <dimen name="default_delete_button_size">80dp</dimen>
+    <dimen name="default_horizontal_spacing">10dp</dimen>
+    <dimen name="default_vertical_spacing">0dp</dimen>
+
+    <dimen name="rec_dot_diameter">50dp</dimen>
+    <dimen name="rec_dot_spacing">2dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="edit_text_size">16.0sp</dimen>
+    <dimen name="margin_low">10.0dip</dimen>
+    <dimen name="margin_standard">20.0dip</dimen>
+    <dimen name="notification_action_icon_size">32.0dip</dimen>
+    <dimen name="notification_action_text_size">13.0sp</dimen>
+    <dimen name="notification_big_circle_margin">12.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_right_icon_size">16.0dip</dimen>
+    <dimen name="notification_small_icon_background_padding">3.0dip</dimen>
+    <dimen name="notification_small_icon_size_as_large">24.0dip</dimen>
+    <dimen name="notification_subtext_size">13.0sp</dimen>
+    <dimen name="notification_top_pad">10.0dip</dimen>
+    <dimen name="notification_top_pad_large_text">5.0dip</dimen>
+    <dimen name="rounded_button_drawable_padding">10.0dip</dimen>
+    <dimen name="rounded_button_height">48.0dip</dimen>
+    <dimen name="rounded_button_radius">24.0dip</dimen>
+    <dimen name="rounded_button_text_horizontal_margin">16.0dip</dimen>
+    <dimen name="rounded_button_text_horizontal_padding">8.0dip</dimen>
+</resources>
